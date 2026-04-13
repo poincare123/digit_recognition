@@ -9,8 +9,7 @@ def remove_additional_data(kept_numbers, data):
     keep the digits indicated in the variable kept_numbers.    
     '''
     deleted_rows = []
-
-    #test
+    #working 01
     for i in xrange(data.shape[0]):
         if(data[i][0] in kept_numbers):
             continue
